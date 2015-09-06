@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EAE7FD1B9A53D9009ECB1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE7E71B9A53D9009ECB1C /* AppDelegate.m */; };
+		25EAE8031B9A53D9009ECB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE7FC1B9A53D9009ECB1C /* main.m */; };
+		25EAE8171B9A61FC009ECB1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EAE8161B9A61FC009ECB1C /* Default-568h@2x.png */; };
+		25EAE81A1B9A6292009ECB1C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8191B9A6292009ECB1C /* BaseViewController.m */; };
+		25EAE81E1B9A6359009ECB1C /* HOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE81D1B9A6359009ECB1C /* HOLoginViewController.m */; };
+		25EAE8251B9A63EA009ECB1C /* HOUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8241B9A63EA009ECB1C /* HOUserInfoViewController.m */; };
+		25EAE8291B9A642E009ECB1C /* HOGoodsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8281B9A642E009ECB1C /* HOGoodsListViewController.m */; };
+		25EAE82B1B9A6490009ECB1C /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EAE82A1B9A6490009ECB1C /* Start.storyboard */; };
+		25EAE82D1B9A64A3009ECB1C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EAE82C1B9A64A3009ECB1C /* Login.storyboard */; };
+		25EAE82F1B9A777D009ECB1C /* UserInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EAE82E1B9A777D009ECB1C /* UserInfo.storyboard */; };
+		25EAE8321B9AB408009ECB1C /* HOLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8311B9AB408009ECB1C /* HOLoginRequest.m */; };
+		25EAE8351B9AC79B009ECB1C /* MultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8341B9AC79B009ECB1C /* MultipartForm.m */; };
+		25EAE8381B9ACC1A009ECB1C /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8371B9ACC1A009ECB1C /* BLMultipartForm.m */; };
+		25EAE83B1B9AD05C009ECB1C /* HOAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE83A1B9AD05C009ECB1C /* HOAddress.m */; };
+		25EAE83E1B9AD095009ECB1C /* HOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE83D1B9AD095009ECB1C /* HOUser.m */; };
+		25EAE8411B9AD195009ECB1C /* HOLoginRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8401B9AD195009ECB1C /* HOLoginRequestParser.m */; };
+		25EAE8441B9B3D53009ECB1C /* HOGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8431B9B3D53009ECB1C /* HOGlobal.m */; };
+		25EAE8481B9B40FC009ECB1C /* HOImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EAE8471B9B40FC009ECB1C /* HOImageDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25EAE7CA1B9A4E30009ECB1C /* lesson04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EAE7E61B9A53D9009ECB1C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25EAE7E71B9A53D9009ECB1C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25EAE7FB1B9A53D9009ECB1C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EAE7FC1B9A53D9009ECB1C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EAE8161B9A61FC009ECB1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25EAE8181B9A6292009ECB1C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		25EAE8191B9A6292009ECB1C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		25EAE81C1B9A6359009ECB1C /* HOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLoginViewController.h; sourceTree = "<group>"; };
+		25EAE81D1B9A6359009ECB1C /* HOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLoginViewController.m; sourceTree = "<group>"; };
+		25EAE8231B9A63EA009ECB1C /* HOUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOUserInfoViewController.h; sourceTree = "<group>"; };
+		25EAE8241B9A63EA009ECB1C /* HOUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOUserInfoViewController.m; sourceTree = "<group>"; };
+		25EAE8271B9A642E009ECB1C /* HOGoodsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOGoodsListViewController.h; sourceTree = "<group>"; };
+		25EAE8281B9A642E009ECB1C /* HOGoodsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOGoodsListViewController.m; sourceTree = "<group>"; };
+		25EAE82A1B9A6490009ECB1C /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		25EAE82C1B9A64A3009ECB1C /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		25EAE82E1B9A777D009ECB1C /* UserInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserInfo.storyboard; sourceTree = "<group>"; };
+		25EAE8301B9AB408009ECB1C /* HOLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLoginRequest.h; sourceTree = "<group>"; };
+		25EAE8311B9AB408009ECB1C /* HOLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLoginRequest.m; sourceTree = "<group>"; };
+		25EAE8331B9AC79B009ECB1C /* MultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartForm.h; sourceTree = "<group>"; };
+		25EAE8341B9AC79B009ECB1C /* MultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartForm.m; sourceTree = "<group>"; };
+		25EAE8361B9ACC1A009ECB1C /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
+		25EAE8371B9ACC1A009ECB1C /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
+		25EAE8391B9AD05C009ECB1C /* HOAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOAddress.h; sourceTree = "<group>"; };
+		25EAE83A1B9AD05C009ECB1C /* HOAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOAddress.m; sourceTree = "<group>"; };
+		25EAE83C1B9AD095009ECB1C /* HOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOUser.h; sourceTree = "<group>"; };
+		25EAE83D1B9AD095009ECB1C /* HOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOUser.m; sourceTree = "<group>"; };
+		25EAE83F1B9AD195009ECB1C /* HOLoginRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLoginRequestParser.h; sourceTree = "<group>"; };
+		25EAE8401B9AD195009ECB1C /* HOLoginRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLoginRequestParser.m; sourceTree = "<group>"; };
+		25EAE8421B9B3D53009ECB1C /* HOGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOGlobal.h; sourceTree = "<group>"; };
+		25EAE8431B9B3D53009ECB1C /* HOGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOGlobal.m; sourceTree = "<group>"; };
+		25EAE8451B9B3F8A009ECB1C /* HOFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOFoundation.h; sourceTree = "<group>"; };
+		25EAE8461B9B40FC009ECB1C /* HOImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOImageDownloader.h; sourceTree = "<group>"; };
+		25EAE8471B9B40FC009ECB1C /* HOImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOImageDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EAE7C71B9A4E30009ECB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EAE7C11B9A4E30009ECB1C = {
+			isa = PBXGroup;
+			children = (
+				25EAE7CC1B9A4E30009ECB1C /* lesson04 */,
+				25EAE7CB1B9A4E30009ECB1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EAE7CB1B9A4E30009ECB1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7CA1B9A4E30009ECB1C /* lesson04.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EAE7CC1B9A4E30009ECB1C /* lesson04 */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7E41B9A53D9009ECB1C /* Classes */,
+				25EAE7F21B9A53D9009ECB1C /* Resources */,
+				25EAE7FA1B9A53D9009ECB1C /* SupportingFiles */,
+			);
+			path = lesson04;
+			sourceTree = "<group>";
+		};
+		25EAE7E41B9A53D9009ECB1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7E51B9A53D9009ECB1C /* AppDelegate */,
+				25EAE7E81B9A53D9009ECB1C /* Controllers */,
+				25EAE7EB1B9A53D9009ECB1C /* Global */,
+				25EAE7EC1B9A53D9009ECB1C /* Models */,
+				25EAE7ED1B9A53D9009ECB1C /* Parsers */,
+				25EAE7EE1B9A53D9009ECB1C /* Publics */,
+				25EAE7EF1B9A53D9009ECB1C /* Requests */,
+				25EAE7F01B9A53D9009ECB1C /* Utilities */,
+				25EAE7F11B9A53D9009ECB1C /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		25EAE7E51B9A53D9009ECB1C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7E61B9A53D9009ECB1C /* AppDelegate.h */,
+				25EAE7E71B9A53D9009ECB1C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		25EAE7E81B9A53D9009ECB1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8261B9A6414009ECB1C /* GoodsList */,
+				25EAE8221B9A63EA009ECB1C /* UserInfo */,
+				25EAE81B1B9A630E009ECB1C /* Login */,
+				25EAE8181B9A6292009ECB1C /* BaseViewController.h */,
+				25EAE8191B9A6292009ECB1C /* BaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25EAE7EB1B9A53D9009ECB1C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8421B9B3D53009ECB1C /* HOGlobal.h */,
+				25EAE8431B9B3D53009ECB1C /* HOGlobal.m */,
+				25EAE8451B9B3F8A009ECB1C /* HOFoundation.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		25EAE7EC1B9A53D9009ECB1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8391B9AD05C009ECB1C /* HOAddress.h */,
+				25EAE83A1B9AD05C009ECB1C /* HOAddress.m */,
+				25EAE83C1B9AD095009ECB1C /* HOUser.h */,
+				25EAE83D1B9AD095009ECB1C /* HOUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25EAE7ED1B9A53D9009ECB1C /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE83F1B9AD195009ECB1C /* HOLoginRequestParser.h */,
+				25EAE8401B9AD195009ECB1C /* HOLoginRequestParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		25EAE7EE1B9A53D9009ECB1C /* Publics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publics;
+			sourceTree = "<group>";
+		};
+		25EAE7EF1B9A53D9009ECB1C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8301B9AB408009ECB1C /* HOLoginRequest.h */,
+				25EAE8311B9AB408009ECB1C /* HOLoginRequest.m */,
+				25EAE8461B9B40FC009ECB1C /* HOImageDownloader.h */,
+				25EAE8471B9B40FC009ECB1C /* HOImageDownloader.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		25EAE7F01B9A53D9009ECB1C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8361B9ACC1A009ECB1C /* BLMultipartForm.h */,
+				25EAE8371B9ACC1A009ECB1C /* BLMultipartForm.m */,
+				25EAE8331B9AC79B009ECB1C /* MultipartForm.h */,
+				25EAE8341B9AC79B009ECB1C /* MultipartForm.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		25EAE7F11B9A53D9009ECB1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25EAE7F21B9A53D9009ECB1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7F31B9A53D9009ECB1C /* Images */,
+				25EAE7F51B9A53D9009ECB1C /* XIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25EAE7F31B9A53D9009ECB1C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8161B9A61FC009ECB1C /* Default-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		25EAE7F51B9A53D9009ECB1C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE82A1B9A6490009ECB1C /* Start.storyboard */,
+				25EAE82C1B9A64A3009ECB1C /* Login.storyboard */,
+				25EAE82E1B9A777D009ECB1C /* UserInfo.storyboard */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		25EAE7FA1B9A53D9009ECB1C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE7FB1B9A53D9009ECB1C /* Info.plist */,
+				25EAE7FC1B9A53D9009ECB1C /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		25EAE81B1B9A630E009ECB1C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE81C1B9A6359009ECB1C /* HOLoginViewController.h */,
+				25EAE81D1B9A6359009ECB1C /* HOLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		25EAE8221B9A63EA009ECB1C /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8231B9A63EA009ECB1C /* HOUserInfoViewController.h */,
+				25EAE8241B9A63EA009ECB1C /* HOUserInfoViewController.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		25EAE8261B9A6414009ECB1C /* GoodsList */ = {
+			isa = PBXGroup;
+			children = (
+				25EAE8271B9A642E009ECB1C /* HOGoodsListViewController.h */,
+				25EAE8281B9A642E009ECB1C /* HOGoodsListViewController.m */,
+			);
+			path = GoodsList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EAE7C91B9A4E30009ECB1C /* lesson04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EAE7E11B9A4E30009ECB1C /* Build configuration list for PBXNativeTarget "lesson04" */;
+			buildPhases = (
+				25EAE7C61B9A4E30009ECB1C /* Sources */,
+				25EAE7C71B9A4E30009ECB1C /* Frameworks */,
+				25EAE7C81B9A4E30009ECB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesson04;
+			productName = lesson04;
+			productReference = 25EAE7CA1B9A4E30009ECB1C /* lesson04.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EAE7C21B9A4E30009ECB1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = h2o1k;
+				TargetAttributes = {
+					25EAE7C91B9A4E30009ECB1C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8R2T2M8288;
+					};
+				};
+			};
+			buildConfigurationList = 25EAE7C51B9A4E30009ECB1C /* Build configuration list for PBXProject "lesson04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EAE7C11B9A4E30009ECB1C;
+			productRefGroup = 25EAE7CB1B9A4E30009ECB1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EAE7C91B9A4E30009ECB1C /* lesson04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EAE7C81B9A4E30009ECB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EAE8171B9A61FC009ECB1C /* Default-568h@2x.png in Resources */,
+				25EAE82F1B9A777D009ECB1C /* UserInfo.storyboard in Resources */,
+				25EAE82B1B9A6490009ECB1C /* Start.storyboard in Resources */,
+				25EAE82D1B9A64A3009ECB1C /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EAE7C61B9A4E30009ECB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EAE8441B9B3D53009ECB1C /* HOGlobal.m in Sources */,
+				25EAE8351B9AC79B009ECB1C /* MultipartForm.m in Sources */,
+				25EAE83E1B9AD095009ECB1C /* HOUser.m in Sources */,
+				25EAE8251B9A63EA009ECB1C /* HOUserInfoViewController.m in Sources */,
+				25EAE8411B9AD195009ECB1C /* HOLoginRequestParser.m in Sources */,
+				25EAE8031B9A53D9009ECB1C /* main.m in Sources */,
+				25EAE8321B9AB408009ECB1C /* HOLoginRequest.m in Sources */,
+				25EAE81E1B9A6359009ECB1C /* HOLoginViewController.m in Sources */,
+				25EAE83B1B9AD05C009ECB1C /* HOAddress.m in Sources */,
+				25EAE81A1B9A6292009ECB1C /* BaseViewController.m in Sources */,
+				25EAE8381B9ACC1A009ECB1C /* BLMultipartForm.m in Sources */,
+				25EAE8291B9A642E009ECB1C /* HOGoodsListViewController.m in Sources */,
+				25EAE7FD1B9A53D9009ECB1C /* AppDelegate.m in Sources */,
+				25EAE8481B9B40FC009ECB1C /* HOImageDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25EAE7DF1B9A4E30009ECB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25EAE7E01B9A4E30009ECB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EAE7E21B9A4E30009ECB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lesson04/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.h2o1k.lesson04;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EAE7E31B9A4E30009ECB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lesson04/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.h2o1k.lesson04;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EAE7C51B9A4E30009ECB1C /* Build configuration list for PBXProject "lesson04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EAE7DF1B9A4E30009ECB1C /* Debug */,
+				25EAE7E01B9A4E30009ECB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EAE7E11B9A4E30009ECB1C /* Build configuration list for PBXNativeTarget "lesson04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EAE7E21B9A4E30009ECB1C /* Debug */,
+				25EAE7E31B9A4E30009ECB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EAE7C21B9A4E30009ECB1C /* Project object */;
+}
