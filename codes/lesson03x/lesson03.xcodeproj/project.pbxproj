@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DCA6C61B6E393500704197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6C51B6E393500704197 /* main.m */; };
+		25DCA6D31B6E3C5F00704197 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6D21B6E3C5F00704197 /* Fraction.m */; };
+		25DCA6D61B6E432A00704197 /* Access.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6D51B6E432A00704197 /* Access.m */; };
+		25DCA6D91B6E4ACC00704197 /* CupWarningException.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6D81B6E4ACC00704197 /* CupWarningException.m */; };
+		25DCA6DC1B6E4B2400704197 /* CupOverflowException.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6DB1B6E4B2400704197 /* CupOverflowException.m */; };
+		25DCA6DF1B6E4B5300704197 /* Cup.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6DE1B6E4B5300704197 /* Cup.m */; };
+		25DCA6F11B6E553500704197 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6F01B6E553500704197 /* Complex.m */; };
+		25DCA6F41B6E57FD00704197 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6F31B6E57FD00704197 /* Rectangle.m */; };
+		25DCA6F71B6E5DEB00704197 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6F61B6E5DEB00704197 /* Square.m */; };
+		25DCA6FA1B6E753A00704197 /* FractionMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DCA6F91B6E753A00704197 /* FractionMath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25DCA6C01B6E393500704197 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25DCA6C21B6E393500704197 /* lesson03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson03; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DCA6C51B6E393500704197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DCA6D11B6E3C5F00704197 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		25DCA6D21B6E3C5F00704197 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		25DCA6D41B6E432A00704197 /* Access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Access.h; sourceTree = "<group>"; };
+		25DCA6D51B6E432A00704197 /* Access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Access.m; sourceTree = "<group>"; };
+		25DCA6D71B6E4ACC00704197 /* CupWarningException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupWarningException.h; sourceTree = "<group>"; };
+		25DCA6D81B6E4ACC00704197 /* CupWarningException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupWarningException.m; sourceTree = "<group>"; };
+		25DCA6DA1B6E4B2400704197 /* CupOverflowException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupOverflowException.h; sourceTree = "<group>"; };
+		25DCA6DB1B6E4B2400704197 /* CupOverflowException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupOverflowException.m; sourceTree = "<group>"; };
+		25DCA6DD1B6E4B5300704197 /* Cup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cup.h; sourceTree = "<group>"; };
+		25DCA6DE1B6E4B5300704197 /* Cup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cup.m; sourceTree = "<group>"; };
+		25DCA6EF1B6E553500704197 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		25DCA6F01B6E553500704197 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		25DCA6F21B6E57FD00704197 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		25DCA6F31B6E57FD00704197 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		25DCA6F51B6E5DEB00704197 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		25DCA6F61B6E5DEB00704197 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		25DCA6F81B6E753A00704197 /* FractionMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionMath.h; sourceTree = "<group>"; };
+		25DCA6F91B6E753A00704197 /* FractionMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionMath.m; sourceTree = "<group>"; };
+		25DCA6FB1B6ED41F00704197 /* Printing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printing.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DCA6BF1B6E393500704197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DCA6B91B6E393500704197 = {
+			isa = PBXGroup;
+			children = (
+				25DCA6C41B6E393500704197 /* lesson03 */,
+				25DCA6C31B6E393500704197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DCA6C31B6E393500704197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DCA6C21B6E393500704197 /* lesson03 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DCA6C41B6E393500704197 /* lesson03 */ = {
+			isa = PBXGroup;
+			children = (
+				25DCA6C51B6E393500704197 /* main.m */,
+				25DCA6FB1B6ED41F00704197 /* Printing.h */,
+				25DCA6D11B6E3C5F00704197 /* Fraction.h */,
+				25DCA6D21B6E3C5F00704197 /* Fraction.m */,
+				25DCA6EF1B6E553500704197 /* Complex.h */,
+				25DCA6F01B6E553500704197 /* Complex.m */,
+				25DCA6D41B6E432A00704197 /* Access.h */,
+				25DCA6D51B6E432A00704197 /* Access.m */,
+				25DCA6D71B6E4ACC00704197 /* CupWarningException.h */,
+				25DCA6D81B6E4ACC00704197 /* CupWarningException.m */,
+				25DCA6DA1B6E4B2400704197 /* CupOverflowException.h */,
+				25DCA6DB1B6E4B2400704197 /* CupOverflowException.m */,
+				25DCA6DD1B6E4B5300704197 /* Cup.h */,
+				25DCA6DE1B6E4B5300704197 /* Cup.m */,
+				25DCA6F21B6E57FD00704197 /* Rectangle.h */,
+				25DCA6F31B6E57FD00704197 /* Rectangle.m */,
+				25DCA6F51B6E5DEB00704197 /* Square.h */,
+				25DCA6F61B6E5DEB00704197 /* Square.m */,
+				25DCA6F81B6E753A00704197 /* FractionMath.h */,
+				25DCA6F91B6E753A00704197 /* FractionMath.m */,
+			);
+			path = lesson03;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DCA6C11B6E393500704197 /* lesson03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DCA6C91B6E393500704197 /* Build configuration list for PBXNativeTarget "lesson03" */;
+			buildPhases = (
+				25DCA6BE1B6E393500704197 /* Sources */,
+				25DCA6BF1B6E393500704197 /* Frameworks */,
+				25DCA6C01B6E393500704197 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesson03;
+			productName = lesson03;
+			productReference = 25DCA6C21B6E393500704197 /* lesson03 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DCA6BA1B6E393500704197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = snddfhv;
+				TargetAttributes = {
+					25DCA6C11B6E393500704197 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 25DCA6BD1B6E393500704197 /* Build configuration list for PBXProject "lesson03" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25DCA6B91B6E393500704197;
+			productRefGroup = 25DCA6C31B6E393500704197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DCA6C11B6E393500704197 /* lesson03 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DCA6BE1B6E393500704197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DCA6F71B6E5DEB00704197 /* Square.m in Sources */,
+				25DCA6DF1B6E4B5300704197 /* Cup.m in Sources */,
+				25DCA6C61B6E393500704197 /* main.m in Sources */,
+				25DCA6D91B6E4ACC00704197 /* CupWarningException.m in Sources */,
+				25DCA6F41B6E57FD00704197 /* Rectangle.m in Sources */,
+				25DCA6D31B6E3C5F00704197 /* Fraction.m in Sources */,
+				25DCA6F11B6E553500704197 /* Complex.m in Sources */,
+				25DCA6DC1B6E4B2400704197 /* CupOverflowException.m in Sources */,
+				25DCA6D61B6E432A00704197 /* Access.m in Sources */,
+				25DCA6FA1B6E753A00704197 /* FractionMath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25DCA6C71B6E393500704197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25DCA6C81B6E393500704197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25DCA6CA1B6E393500704197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DCA6CB1B6E393500704197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DCA6BD1B6E393500704197 /* Build configuration list for PBXProject "lesson03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DCA6C71B6E393500704197 /* Debug */,
+				25DCA6C81B6E393500704197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DCA6C91B6E393500704197 /* Build configuration list for PBXNativeTarget "lesson03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DCA6CA1B6E393500704197 /* Debug */,
+				25DCA6CB1B6E393500704197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DCA6BA1B6E393500704197 /* Project object */;
+}
